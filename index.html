@@ -1,30 +1,87 @@
 <!DOCTYPE html>
 <html>
 
-<head><title>First Try</title></head>
+
+<head>
+<title>First Try</title>
+<style>
+a:link{
+    color: cornsilk;
+    background-color: cadetblue;
+    text-decoration: wavy;
+    padding: 15px 25px;
+    text-align: center ;
+}
+a:visited {
+  color: cornsilk;
+  background-color: transparent;
+  text-decoration: underline;
+  text-align: center ;
+}
+a:hover {
+  color: rgb(26, 203, 234);
+  background-color: transparent;
+  text-decoration: underline;
+  text-align: center ;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+  text-align: center ;
+}
+
+body
+{
+    background-image: url('https://img.freepik.com/free-vector/minimalist-background-with-leaves_23-2148909131.jpg?w=2000');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+</style>
+</head>
+
 
 <body style="background-color:cornsilk;">
 
 <h1 style="font-size: 400%; font-family: cursive; text-align: center; background-color: cadetblue ; color: cornsilk;">Shokufa</h1>
-
+<p><a href="#soldier">Jump to the pic of soldiers</a></p>
 
 <hr>
 <hr>
 
 <h1 style="text-align:center; color:cadetblue; font-size: 200%;font-family:serif;">Jeghele<sup>iut</sup></h1>
 
-<p style="font-family: cursive; font-size: 200%; color: cadetblue; text-align: center;"><i>you can see my first paragraph here and nothing else for now</i></p>
-<p style="font-family:cursive; font-size: 300%; color: cadetblue; text-align: center;"><b><i>Coming soon...</i></b></p>
+<a href="https://www.google.com" style="text-align: center;" target="_parent">Link to google</a> how to move it into the center?
+
+<p style="border:1px solid cadetblue; padding: 30px;margin: 100px; font-family: cursive; font-size: 200%; color: cadetblue; text-align: center;"><i>you can see my first paragraph here and nothing else for now</i></p>
+<p style="background-color: rgba(255, 91 , 79, 0.09); font-family:cursive; font-size: 300%; color: cadetblue; text-align: center;"><b><i>Coming soon...</i></b></p>
 
 <hr>
 <hr>
 
-<a style="color: cadetblue; text-decoration: none;" href="https://www.w3schools.com"><p style="text-align: center; font-size: 150%;"><mark style="color: cadetblue">H<sub>2</sub>O</mark></p></a>
+<a style="color: cadetblue; text-decoration: none;" href="https://www.w3schools.com" title="Go to W3Schools HTML section"><p style="text-align: center; font-size: 150%;"><mark style="color: cadetblue">H<sub>2</sub>O</mark></p></a> how can i separate this paragraphs style from other links?
 <hr>
 <hr>
+
+<button onclick="Animation">my first link</button> how can link an url?
+
+<hr>
+<hr>
+
+
+
 <br>
 <br>
-<img style="text-align: center;" src="Soldier.jpg" alt="Soldierxxxxx" width="100%">
+
+<img style="text-align: center;" id="soldier" src="Soldier.jpg" alt="Soldierxxxxx" width="100%" onclick="MyFunc()">
+
+<script>
+    function MyFunc()
+    {
+        alert("You clicked on the picture of soldiers");
+    }
+</script>
 
 <br>
 <br>
