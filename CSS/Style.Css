@@ -1,0 +1,43 @@
+a:link{
+    color: cornsilk;
+    background-color: cadetblue;
+    text-decoration: wavy;
+    padding: 15px 25px;
+    text-align: center ;
+}
+a:visited {
+  color: cornsilk;
+  background-color: transparent;
+  text-decoration: underline;
+  text-align: center ;
+}
+a:hover {
+  color: rgb(26, 203, 234);
+  background-color: transparent;
+  text-decoration: underline;
+  text-align: center ;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+  text-align: center ;
+}
+
+th,td
+{
+    border: 3px solid rgba(255, 255, 255, 0.995);
+    border-collapse: collapse ;
+    border-radius: 1000px;
+    background-color: antiquewhite;
+    border-style: inset;
+}
+
+
+body
+{
+    background-image: url('https://img.freepik.com/free-vector/minimalist-background-with-leaves_23-2148909131.jpg?w=2000');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

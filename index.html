@@ -3,93 +3,93 @@
 
 
 <head>
-<title>First Try</title>
+  <link rel="stylesheet" href="CSS/Style.Css">
+  <title>First Try</title>
 
-<link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACNDYABgt/8AUqb/AEia/wBImv8ARpf/AEaX/wBGl/8ARpf/AEaX/wBDlP8AQ5T/AEOU/wAYNmAAAAAAACNDYABuyv8AkfX/E6f+/xOn/v8Rpf7/AJj9/wCE5f8AfNv/AHzb/wB82/8AZL3/AGC5/wBguf8AUqf/ABg2YABgt/8AhOX/AJj9/za8/v8jtP7/IbL+/wCY/f8AmP3/AHzb/wBx1/8AaNP/AGPO/wBguf8AYLn/AGC5/wBDlP8AXbP/AGjB/wBxzP8Accz/AHHM/wBxzP8Accz/AGfC/wBg0P9wneH/ILft/wCD5f8AVsT/AEue/wBLnv8AQJD/AF2z/wZu6v8Gbur/BTms/wUVgf8FGYX/BGfh/wBq1/8Vvff/UfD//zHt//8AtP//AIPl/wNa0f8GaeT/AECQ/wAMECACNJr/Bgh8/wMR0P8BFfj/AAmg/wCQJP8CXEL/Bgh6/wYIev8GCHz/Bgh6/wYIev8GDHX/Bgx1/wEBCxgArxj/AKUm/wE3x/8BN8f/AJgn/wCfPP8AtHf/AKZi/wBZVP8BMMn/ATDJ/wAfi/8AUF3/AJUz/wCVM/8ALQtQALMj/x7Yhv8Av0j/AL9I/wDLhv8AxoP/JOWs/wDWjf8At27/AJpC/wCaQv8AmkL/AKRd/wCrcf8Aq3H/AJIp/wBNF38AfY//AH2P/wB9j/8Aa4P/AGuD/wB9j/8AfY//AH2P/wBrg/8Aa4P/AGuD/wBrg/8Aa4P/AGuD/wBAG38AT5nfAG/L/wBvy/8Ab8v/AG/L/wBvy/8Ab8v/AG/L/wBvy/8Ab8v/AG/L/wBZsP8AWbD/AFmw/wBZsP8AOH7fAGC3/wCD5P8Al/z/AJf8/wCX/P8Al/z/AJf8/wCX/P8Al/z/AIHh/wB82/8Ae9r/AHLO/wBguf8AYLn/AEOU/wBjuv8Tp/7/Lbz+/wqg/f8KoP3/AJj9/wSb/f84xP//EaX+/wCY/f8AmP3/AHzb/wByz/8AYLn/AGC5/wBDlP8ARoa/AJT4/yu6/v9i2f//Qsz//xeq/v8In/3/AJj9/wCY/f8AmP3/AI/y/wB82/8Acs//AGC5/wBetv8AMGy/AAAAAABGhr8Aedb/CH/W/x+w/v8fsP7/EaX+/wCY/f8Alfn/AInr/wB82/8Abcn/AFOn/wBPo/8AMGy/AAAAAAAAAAAAAAAAABoySAAaMkgAZLz/AG7I/wBuyP8Absj/AF2z/wBRpf8AUaX/AESV/wASKUgAEilIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJERgACREYAAkRGAAGDhgABg4YAAYOGAAAAAAAAAAAAAAAAAAAAAAAAAAAwAMAAIABAAAAAAAAAAAAAAAAAACAAQAAAAEAAAAAAACAAQAAAAAAAAAAAAAAAAAAAAAAAIABAADwDwAA//8AAA==" rel="icon" type="image/x-icon" />
-<style>
-a:link{
-    color: cornsilk;
-    background-color: cadetblue;
-    text-decoration: wavy;
-    padding: 15px 25px;
-    text-align: center ;
-}
-a:visited {
-  color: cornsilk;
-  background-color: transparent;
-  text-decoration: underline;
-  text-align: center ;
-}
-a:hover {
-  color: rgb(26, 203, 234);
-  background-color: transparent;
-  text-decoration: underline;
-  text-align: center ;
-}
-a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
-  text-align: center ;
-}
-
-body
-{
-    background-image: url('https://img.freepik.com/free-vector/minimalist-background-with-leaves_23-2148909131.jpg?w=2000');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-</style>
+  <link
+    href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACNDYABgt/8AUqb/AEia/wBImv8ARpf/AEaX/wBGl/8ARpf/AEaX/wBDlP8AQ5T/AEOU/wAYNmAAAAAAACNDYABuyv8AkfX/E6f+/xOn/v8Rpf7/AJj9/wCE5f8AfNv/AHzb/wB82/8AZL3/AGC5/wBguf8AUqf/ABg2YABgt/8AhOX/AJj9/za8/v8jtP7/IbL+/wCY/f8AmP3/AHzb/wBx1/8AaNP/AGPO/wBguf8AYLn/AGC5/wBDlP8AXbP/AGjB/wBxzP8Accz/AHHM/wBxzP8Accz/AGfC/wBg0P9wneH/ILft/wCD5f8AVsT/AEue/wBLnv8AQJD/AF2z/wZu6v8Gbur/BTms/wUVgf8FGYX/BGfh/wBq1/8Vvff/UfD//zHt//8AtP//AIPl/wNa0f8GaeT/AECQ/wAMECACNJr/Bgh8/wMR0P8BFfj/AAmg/wCQJP8CXEL/Bgh6/wYIev8GCHz/Bgh6/wYIev8GDHX/Bgx1/wEBCxgArxj/AKUm/wE3x/8BN8f/AJgn/wCfPP8AtHf/AKZi/wBZVP8BMMn/ATDJ/wAfi/8AUF3/AJUz/wCVM/8ALQtQALMj/x7Yhv8Av0j/AL9I/wDLhv8AxoP/JOWs/wDWjf8At27/AJpC/wCaQv8AmkL/AKRd/wCrcf8Aq3H/AJIp/wBNF38AfY//AH2P/wB9j/8Aa4P/AGuD/wB9j/8AfY//AH2P/wBrg/8Aa4P/AGuD/wBrg/8Aa4P/AGuD/wBAG38AT5nfAG/L/wBvy/8Ab8v/AG/L/wBvy/8Ab8v/AG/L/wBvy/8Ab8v/AG/L/wBZsP8AWbD/AFmw/wBZsP8AOH7fAGC3/wCD5P8Al/z/AJf8/wCX/P8Al/z/AJf8/wCX/P8Al/z/AIHh/wB82/8Ae9r/AHLO/wBguf8AYLn/AEOU/wBjuv8Tp/7/Lbz+/wqg/f8KoP3/AJj9/wSb/f84xP//EaX+/wCY/f8AmP3/AHzb/wByz/8AYLn/AGC5/wBDlP8ARoa/AJT4/yu6/v9i2f//Qsz//xeq/v8In/3/AJj9/wCY/f8AmP3/AI/y/wB82/8Acs//AGC5/wBetv8AMGy/AAAAAABGhr8Aedb/CH/W/x+w/v8fsP7/EaX+/wCY/f8Alfn/AInr/wB82/8Abcn/AFOn/wBPo/8AMGy/AAAAAAAAAAAAAAAAABoySAAaMkgAZLz/AG7I/wBuyP8Absj/AF2z/wBRpf8AUaX/AESV/wASKUgAEilIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJERgACREYAAkRGAAGDhgABg4YAAYOGAAAAAAAAAAAAAAAAAAAAAAAAAAAwAMAAIABAAAAAAAAAAAAAAAAAACAAQAAAAEAAAAAAACAAQAAAAAAAAAAAAAAAAAAAAAAAIABAADwDwAA//8AAA=="
+    rel="icon" type="image/x-icon" />
 </head>
 
 
 <body style="background-color:cornsilk;">
 
-<h1 style="font-size: 400%; font-family: cursive; text-align: center; background-color: cadetblue ; color: cornsilk;">Shokufa</h1>
-<p><a href="#soldier">Jump to the pic of soldiers</a></p>
+  <h1 style="font-size: 400%; font-family: cursive; text-align: center; background-color: cadetblue ; color: cornsilk;">
+    Shokufa</h1>
+  <p style="text-align:center ;"><a href="#soldier">Jump to the pic of soldiers</a></p>
 
-<hr>
-<hr>
+  <hr>
+  <hr>
 
-<h1 style="text-align:center; color:cadetblue; font-size: 200%;font-family:serif;">Jeghele<sup>iut</sup></h1>
+  <h1 style="text-align:center; color:cadetblue; font-size: 200%;font-family:serif;">Jeghele<sup>iut</sup></h1>
 
-<a href="https://www.google.com" style="text-align: center;" target="_parent">Link to google</a> how to move it into the center?
+  <p style="text-align:center"><a href="https://www.google.com" target="_parent">Link to google</a></p>
 
-<p style="border:1px solid cadetblue; padding: 30px;margin: 100px; font-family: cursive; font-size: 200%; color: cadetblue; text-align: center;"><i>you can see my first paragraph here and nothing else for now</i></p>
-<p style="background-color: rgba(255, 91 , 79, 0.09); font-family:cursive; font-size: 300%; color: cadetblue; text-align: center;"><b><i>Coming soon...</i></b></p>
+  <p
+    style="border:1px solid cadetblue; padding: 30px;margin: 100px; font-family: cursive; font-size: 200%; color: cadetblue; text-align: center;">
+    <i>you can see my first paragraph here and nothing else for now</i></p>
+  <p
+    style="background-color: rgba(255, 91 , 79, 0.09); font-family:cursive; font-size: 300%; color: cadetblue; text-align: center;">
+    <b><i>Coming soon...</i></b></p>
 
-<hr>
-<hr>
+  <hr>
+  <hr>
 
-<a style="color: cadetblue; text-decoration: none;" href="https://www.w3schools.com" title="Go to W3Schools HTML section"><p style="text-align: center; font-size: 150%;"><mark style="color: cadetblue">H<sub>2</sub>O</mark></p></a> how can i separate this paragraphs style from other links?
-<hr>
-<hr>
+  <table style="width: 100%;">
+  <tr>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Address</th>
+    <th>Phone Number</th>
+  </tr>
+  <tr>
+    <td><p style="text-align:center ;">Hadisa</p></td>
+    <td><p style="text-align:center ;">Hey</p></td>
+    <td><p style="text-align:center ;">Seoul</p></td>
+    <td><p style="text-align:center ;">+982335665767</p></td>
+  </tr>
+  <tr>
+    <td><p style="text-align:center ;">Mohammad</p></td>
+    <td><p style="text-align:center ;">amiri</p></td>
+    <td><p style="text-align:center ;">LA</p></td>
+    <td><p style="text-align:center ;">+98123456578</p></td>
+  </tr>
+  <tr>
+    <td><p style="text-align:center ;">Agha</p></td>
+    <td><p style="text-align:center ;">Hashemi</p></td>
+    <td><p style="text-align:center ;">Isfahan</p></td>
+    <td><p style="text-align:center ;">+98124356677</p></td>
+  </tr>
+  </table>
 
-<button onclick="Animation">my first link</button> how can link an url?
+  <p style="text-align: center; font-size: 150%;"><a style="color: cadetblue; text-decoration: none;"
+      href="https://www.w3schools.com" title="Go to W3Schools HTML section"><mark
+        style="color: cadetblue">H<sub>2</sub>O</mark></a></p>
+  <hr>
+  <hr>
 
-<hr>
-<hr>
+  <button onclick="window.open('https://www.google.com','_blank')">my first link</button> how can link an url?
 
+  <hr>
+  <hr>
 
+  <br>
+  <br>
 
-<br>
-<br>
+  <img style="text-align: center;" id="soldier" src="Soldier.jpg" alt="Soldierxxxxx" width="100%" onclick="MyFunc()">
 
-<img style="text-align: center;" id="soldier" src="Soldier.jpg" alt="Soldierxxxxx" width="100%" onclick="MyFunc()">
-
-<script>
-    function MyFunc()
-    {
-        alert("You clicked on the picture of soldiers");
+  <script>
+    function MyFunc() {
+      alert("You clicked on the picture of soldiers");
     }
-</script>
+  </script>
 
-<br>
-<br>
-<br>
+  <br>
+  <br>
+  <br>
 
-<hr>
-<hr> 
+  <hr>
+  <hr>
 </body>
+
 </html>
